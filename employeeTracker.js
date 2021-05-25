@@ -26,6 +26,7 @@ const inquirerErr = (error) => {
 
 /*** Start program execution ***/
 const showStartScreen = () => {
+  console.clear();
   console.log(",---------------------------------------------------.");
   console.log("|   _____                 _                         |");
   console.log("|  | ____|_ __ ___  _ __ | | ___  _   _  ___  ___   |");
@@ -40,6 +41,7 @@ const showStartScreen = () => {
   console.log("|  |_|  |_|\\__,_|_| |_|\\__,_|\\__, |\\___|_|          |");
   console.log("|                            |___/                  |");
   console.log("|                                                   |");
+  console.log("|                               Now with Promises!  |");
   console.log("`---------------------------------------------------'");
   console.log();
 };
